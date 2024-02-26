@@ -11,6 +11,11 @@
 <fieldset>
 
 <!--status selector--> 
+
+<label for="age">Enter your age:</label>
+        <input type="number" id="age" name="age" required><br><br>
+
+        <div class="status">
  <label for="membership">Membership Status:</label><br>
    <input type="checkbox" id="premium" name="premium" value="Premium">
         <label for="premium">Premium</label><br>
@@ -20,6 +25,7 @@
         
         <input type="checkbox" id="junior" name="junior" value="Junior">
         <label for="junior">Junior</label><br>
+      </div>
 
 
     <button type="button" onclick="checkEligibility()">Check Eligibility</button>

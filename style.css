@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: bisque;
+}
+
+form {
+  margin-bottom: 20px;
+  color: ;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: aquamarine;
+
+}
+
+#result {
+  font-weight: bold;
+}

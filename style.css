@@ -1,6 +1,5 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: bisque;
 }
 
 form {
@@ -15,10 +14,30 @@ label {
 
 button {
   padding: 10px 20px;
-  background-color: aquamarine;
+  background-color: rgb(96, 114, 116);
+}
 
+fieldset {
+  border-radius: 20px;
+  border-width: 10px;
 }
 
 #result {
   font-weight: bold;
+}
+
+.form {
+  background-color: #f3d7ca;
+}
+
+.header {
+  text-align: center;
+}
+
+#DiscountCheck {
+  padding-top: 10px;
+}
+
+.legend {
+  padding-bottom: 20px;
 }

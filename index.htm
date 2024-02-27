@@ -4,41 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Discount Eligibility Program</title>
-    <link rel="stylesheet"  href="style.css" >
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <Header> This is a Discount Eligibility Program</Header>
-<form>
-<fieldset>
+    <header class="header">
+      <h1>This is a Discount Eligibility Program</h1>
+    </header>
 
-<!--status selector--> 
+    <div class="form">
+      <form id="DiscountCheck" onsubmit="return false;">
+        <fieldset>
+          <legend class="legend">Discount Application</legend>
 
-<label for="age">Enter your age:</label>
-        <input type="number" id="age" name="age" required><br><br>
+          <label for="age">Enter your age:</label>
 
-        <div class="status">
- <label for="membership">Membership Status:</label><br>
-   <input type="checkbox" id="premium" name="premium" value="Premium">
-        <label for="premium">Premium</label><br>
-        
-        <input type="checkbox" id="legend" name="legend" value="Legend">
-        <label for="legend">Legend</label><br>
-        
-        <input type="checkbox" id="junior" name="junior" value="Junior">
-        <label for="junior">Junior</label><br>
-      </div>
+          <input type="number" id="age" name="age" required /><br /><br />
+          <label for="membership">Membership Status:</label><br />
 
+          <input type="checkbox" id="premium" name="premium" required />
+          <label for="premium">Premium</label><br />
 
-    <button type="button" onclick="checkEligibility()">Check Eligibility</button>
-</fieldset>
+          <input type="checkbox" id="legend" name="legend" required />
+          <label for="legend">Legend</label><br />
 
- <div id="result">
+          <input type="checkbox" id="junior" name="junior" required />
+          <label for="junior">Junior</label><br />
 
- </div>
+          <button class="button" type="button" onclick="checkEligibility()">
+            Check Eligibility
+          </button>
+          <br /><br />
+          <div id="answer"></div>
+        </fieldset>
+      </form>
+    </div>
 
-
-<script src="script.js"></script>
-
-
+    <script src="script.js"></script>
   </body>
 </html>
